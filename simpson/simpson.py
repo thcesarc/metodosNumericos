@@ -21,10 +21,6 @@ def simpson(intervalo: tuple[float, float], y=tuple(), polinomio=tuple()) -> flo
     :param polinomio: tuple(*float). Recebe os coeficientes do pol p(x)
     :return: área da curva.
     """
-    """Recebe um intervalo x = (x1,x2) e y = (f(x1), f(x_medio), f(x2))
-    Retorna o valor da área sobre a curva y(x) no intervalo
-    Se variável polinomio não vazia, calcula os valores de y, c.c. usa intervalo e y."""
-
     intervalo = adiciona_ponto_medio(intervalo)
     assert type(polinomio) == tuple, 'argumento polinomio deve ser tipo tupla';
     if polinomio:
