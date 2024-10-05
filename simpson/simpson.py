@@ -16,7 +16,6 @@ def calcula_polinomio(polinomio:tuple, intervalo:tuple[float,float,float]) -> tu
 #mestre
 def simpson(intervalo: tuple[float, float], y=tuple(), polinomio=tuple()) -> float:
     """
-
     :param intervalo: tuple(float, float). Intervalo de integração no eixo x
     :param y: tuple(float,float,float). Imagem da função no ponto médio e limites
     :param polinomio: tuple(*float). Recebe os coeficientes do pol p(x)
