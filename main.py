@@ -17,10 +17,5 @@ def main():
     print("Resultado do algorítmo: ", teste_limites_polinomio())
     print('Valor analítico esperado: integral de 1 a 10 de x^2 + 3 = 360')
 
-
-
-
-
-
 if __name__ == '__main__':
     main()
